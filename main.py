@@ -8,6 +8,8 @@ while 1:
 
     if switchtype == 'Nexus':
         session = login()
+        print(session)
+        '''
         patterns = session.expect(['Password', '>', '#'])
 
         if patterns == 0:
@@ -30,3 +32,4 @@ while 1:
         continue 
 
 
+'''
