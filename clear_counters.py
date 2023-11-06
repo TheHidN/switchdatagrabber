@@ -4,7 +4,6 @@ def counters():
         counters = input('Do you want to clear counters? (y/n)?: ').lower()
         
         if counters == 'y':
-            from ssh import login
             session = login()
             session.expect('#')
             session.sendline('clear counters interface all')
