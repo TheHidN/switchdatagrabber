@@ -1,5 +1,4 @@
 from getpass import getpass
-import sys
 import pexpect
 
 def login():
@@ -11,18 +10,4 @@ def login():
     session = pexpect.spawn(f'ssh -o StrictHostKeyChecking=no {username}@{ip_address}')
     session.expect('Password')
     session.sendline(password)
-    #post buffer to console 
-    #session.logfile = sys.stdout.buffer
 
-    patterns = session.expect(['Password', '>', '#'])
-
-    if patterns == 0:
-        print('wrong password aborting session')
-        exit()
-    elif patterns == 1:
-        print('enable problem')
-        exit()
-    elif patterns == 2:
-        print(f'Connected to {ip_address}')
-
-    return session

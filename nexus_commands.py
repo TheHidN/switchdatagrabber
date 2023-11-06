@@ -3,3 +3,5 @@ def nexus_mac():
     session = login()
     session.expect('#')
     mac_address_table = session.sendline('show mac address-table')
+
+    return session
