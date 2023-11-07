@@ -30,7 +30,11 @@ def login(ip):
             e.value = output[i]
     
     print(workbook.get_sheet_by_name('Sheet'))
-    #workbook.remove_sheet('Sheet')
+    print(workbook.get_sheet_by_name('Sheet'))
+    print(workbook.get_sheet_by_name('Sheet'))
+    print(workbook.get_sheet_by_name('Sheet'))
+    print(workbook.get_sheet_by_name('Sheet'))
+    workbook.remove_sheet('<Worksheet "Sheet">')
     workbook.save(filename='test.xlsx')
 
     session.disconnect()
