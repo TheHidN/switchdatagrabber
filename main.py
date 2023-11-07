@@ -1,6 +1,7 @@
 from ssh import login
 from clear_counters import counters 
 from nexus_commands import nexus_mac
+import pexpect
 
 while 1:    
     switchtype = input('What type of switch are you trying to connect to (Nexus/Catalyst)?: ')
@@ -17,8 +18,9 @@ while 1:
             exit()
         elif patterns == 2:
             print(f'Connected to {login.ip_address}')
-            session.counters()
+            counters(session)
             break
+
     elif switchtype =='Catalyst':
         login()
         counters()
