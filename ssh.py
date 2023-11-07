@@ -20,17 +20,19 @@ def login(ip):
     workbook = Workbook()
     workbook.active
     
+    #loops commands through cisco cli and outputs line by line to excel.
     for cmd in commands:
         worksheet = workbook.create_sheet(title=cmd.rstrip())
-        output = session.send_command(cmd)
-        output = output.splitlines()
+        output = session.send_command(cmd).split()
         for i in range(0, len(output)):
             start_row = i + 1
             e = worksheet.cell(row=start_row, column=1)
             e.value = output[i]
     
+    #delete sheet1
     sheet1 = workbook.get_sheet_by_name('Sheet')
     workbook.remove_sheet(sheet1)
+
     workbook.save(filename='test.xlsx')
 
     session.disconnect()
