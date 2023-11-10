@@ -1,0 +1,14 @@
+1. Install Python3 https://www.python.org/downloads/
+*important - Make sure add to PATH is checked.
+
+2. Run pip install.bat
+
+3. Add the list of ip addresses ip.txt (each ip must be on a new line)
+
+4. Open command prompt and change to the ssh.py directory
+
+5. Type python ssh.py  
+
+Spreadsheets will generate within the ssh.py directory.
+
+Any errors will be added to the error.txt file.

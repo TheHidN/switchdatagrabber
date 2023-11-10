@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84092b60-128b-48a9-b410-58034e263564" name="Changes" comment="Update 1.00" />
+    <list default="true" id="84092b60-128b-48a9-b410-58034e263564" name="Changes" comment="Update 1.00">
+      <change beforePath="$PROJECT_DIR$/.idea/SwitchDataGrabber.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SwitchDataGrabber.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.main.py.swk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.main.py.swm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.show mac address-table.json.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ssh.py.swo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ssh.py.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssh.py" beforeDir="false" afterPath="$PROJECT_DIR$/ssh.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,10 +22,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2XoimjEZW68wb4wO4unLZ6OqSVk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,7 +35,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
